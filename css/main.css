@@ -151,6 +151,61 @@ div.footer li {
 
 
 
+/*MEDIA*/
+
+@media (max-width: 700px) {
+  .cta {
+    margin: 50px;
+  }
+  .cta input {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo img {
+    height: 50px;
+  }
+  .search button:nth-child(1) {
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .search button:nth-child(2) {
+    display: none;
+  }
+
+  div.footer ul.right,
+  div.footer ul.left {
+    display: block;
+    padding: 0;
+  }
+
+  div.footer ul.right {
+    float: left;
+  }
+
+  div.footer {
+    height: 100px;
+  }
+
+ }
+
+@media (max-width: 460px) {
+  .navigation img {
+    display: none;
+  }
+  .cta {
+    margin: 15px;
+  }
+}
+
+@media (max-width: 405px) {
+  .navigation .share {
+    display: none;
+  }
+}
 
 
 
